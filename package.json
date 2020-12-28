@@ -11,8 +11,12 @@
     "android",
     "ui-components"
   ],
-  "license": "MIT",
+  "homepage": "https://github.com/Tapston/react-native-styles#readme",
   "author": "Tapston / Tapston Development, LLC / tapston.com / Roman Ravkov",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
