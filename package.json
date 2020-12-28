@@ -11,7 +11,7 @@
     "android",
     "ui-components"
   ],
-  "homepage": "https://github.com/Tapston/react-native-styles#readme",
+  "homepage": "https://github.com/Tapston/react-native-animation#readme",
   "author": "Tapston / Tapston Development, LLC / tapston.com / Roman Ravkov",
   "publishConfig": {
     "access": "public"
