@@ -35,18 +35,18 @@ export const initialAnimation = config => {
 
 export const animateLayout = config => {
   LayoutAnimation.configureNext({
-    duration: config.duration || defaultConfig.duration,
+    duration: config?.duration || defaultConfig.duration,
     create: {
-      type: config.type || defaultConfig.type,
-      property: config.property || defaultConfig.property,
+      type: config?.type || defaultConfig.type,
+      property: config?.property || defaultConfig.property,
     },
     delete: {
-      type: config.type || defaultConfig.type,
-      property: config.property || defaultConfig.property,
+      type: config?.type || defaultConfig.type,
+      property: config?.property || defaultConfig.property,
     },
     update: {
-      type: config.type || defaultConfig.type,
-      property: config.property || defaultConfig.property,
+      type: config?.type || defaultConfig.type,
+      property: config?.property || defaultConfig.property,
     },
   });
 };
